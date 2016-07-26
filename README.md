@@ -14,9 +14,7 @@
 * addParams(Map<String,String> params)
 * addParams(ParamMap params)
 
-#### 例：<br>
-MyHttp.url("www.host.com").addParam("param0=arg0")<br>
-MyHttp.url("www.host.com").addParam("param0","arg0")<br>
+#### 例：MyHttp.url("www.host.com").addParam("param0=arg0") <br> MyHttp.url("www.host.com").addParam("param0","arg0")
 
 ### 1.3 发起请求
 * execute()
